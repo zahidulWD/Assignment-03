@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-them="light">
+<head>
+    <!-- Meta_setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Rinterio</title>
+
+    <!-- Fav-Icon -->
+
+    <!-- Font_awesome_CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google_Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- DaisyUI_and_Tailwind_CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'rgb(171, 239, 95)',
+                        secondary: 'rgba(171, 239, 95, 0.5)',
+                        body: 'rgb(30, 30, 30)',
+                        Concept: 'rgb(231, 193, 211)',
+                        Design_Process: 'rgb(239, 218, 110)',
+                        Supervision: 'rgb(164, 218, 195)',
+                        Budget_Planning: 'rgb(119, 170, 234)',
+                    },
+                    fontFamily: {
+                        Manrope: 'Manrope',
+                    },
+                    backgroundImage: {
+                      leaf1: "url('...')",
+                    //   call_to_action: "url('./images/call.jpg')",
+                    //   testimonials: "url('./images/testimonials.jpg')",
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-Manrope">
+    <!--========================== 
+        Header_section_start_here
+      ============================= -->
+      <header>
+        <nav class="w-11/12 mx-auto">
+            <div class="navbar p-0 py-3">
+                <div class="navbar-start">
+                  <a  href="#">
+                    <img class="w-36" src="images/logo.svg" alt="">
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Everything</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Grocerise</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>About</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <div class="flex items-center gap-5 font-lg ">
+                    <button class="flex items-center gap-2 font-semibold text-accent">
+                      <span>$20.00</span>
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                    <button>
+                      <i class="fa-solid fa-user"></i>
+                    </button>
+                  </div>
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-5">
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Everything</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Grocerise</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>About</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+        </nav>
+      </header>
+    
+</body>
+</html>
