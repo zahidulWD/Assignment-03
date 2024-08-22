@@ -37,6 +37,7 @@
                     },
                     fontFamily: {
                         Manrope: 'Manrope',
+                        extrabold: '800',
                     },
                     backgroundImage: {
                       leaf1: "url('...')",
@@ -52,31 +53,29 @@
     <!--========================== 
         Header_section_start_here
       ============================= -->
-      <header>
-        <nav class="w-11/12 mx-auto">
-            <div class="navbar p-0 py-3">
-                <div class="navbar-start">
-                  <a  href="#">
-                    <img class="w-36" src="images/logo.svg" alt="">
-                  </a>
+      <header class="w-10/12 mx-auto">
+        <nav >
+            <div class="navbar p-0 py-5">
+                <div class="navbar-start gap-1">
+                    <i class="fa-solid fa-arrow-up-long btn btn-outline border-gray-200 hover:border-none text-black hover:bg-secondary bg-primary btn-circle rotate-45 w-8 h-8 min-h-0"></i> <a href="#" class="text-3xl font-extrabold">Rinterio</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-lg font-medium">
                     <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
-                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Everything</a></li>
-                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Grocerise</a></li>
-                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>About</a></li>
-                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Services</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
                   <div class="flex items-center gap-5 font-lg ">
-                    <button class="flex items-center gap-2 font-semibold text-accent">
-                      <span>$20.00</span>
-                      <i class="fa-solid fa-cart-shopping"></i>
+                    <button class="flex items-center  font-semibold hidden lg:block ">
+                      <i class="fa-solid fa-magnifying-glass btn btn-circle btn-outline border-gray-200 hover:border-none text-gray-500 hover:bg-secondary w-8 h-8 min-h-0 ml-5"></i>
+                      <i class="fa-solid fa-cart-shopping btn btn-circle btn-outline border-gray-200 hover:border-none text-gray-500 hover:bg-secondary w-8 h-8 min-h-0 "></i>
                     </button>
-                    <button>
-                      <i class="fa-solid fa-user"></i>
+                    <button class="btn rounded-3xl bg-primary hover:bg-secondary font-bold text-black hidden lg:block">
+                        <span class="font-bold ">Book Consult</span> <i class="fa-solid fa-arrow-up-long btn btn-outline border-gray-200 hover:border-none text-white hover:bg-secondary bg-black btn-circle rotate-45 w-8 h-8 min-h-0"></i>
                     </button>
                   </div>
                   <div class="dropdown">
@@ -87,17 +86,44 @@
                       tabindex="0"
                       class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0 gap-5">
                       <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
-                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Everything</a></li>
-                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Grocerise</a></li>
-                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>About</a></li>
-                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Services</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Portfolio</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Blogs</a></li>
+                      <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Contact Us</a></li>
                     </ul>
                   </div>
                 </div>
               </div>
-
         </nav>
+
+        <!--================= 
+            banner_section
+        ==================== -->
+        <section>
+            <div>
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-col text-center">
+                      <div>
+                        <img src="assets/banner.png" alt="">
+                      </div>
+                      <div class="items-center">
+                        <h1 class="text-4xl lg:text-5xl md:text-3xl font-bold lg:font-extrabold ">A barn house of this design has a <br> striking appearance</h1>
+                        <p class="py-4 lg:py-6 font-semibold text-[rgb(73, 73, 73)]">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+                        </p>
+                        <button class="btn rounded-3xl hover:bg-primary bg-secondary font-extrabold text-black">View Details <i class="fa fa-long-arrow-up btn btn-outline border-gray-200 hover:border-none text-black hover:bg-secondary bg-primary btn-circle rotate-45 w-8 h-8 min-h-0" aria-hidden="true"></i></button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
       </header>
+      <!-- ====================== 
+        Main_section_start_here
+       =========================-->
+       <main class="w-10/12 mx-auto">
+
+       </main>
     
 </body>
 </html>
